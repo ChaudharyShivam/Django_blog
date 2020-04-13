@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def home(request):
+def article_list(request):
      return render(request, 'Articles/aticle_list.html')
 
 
